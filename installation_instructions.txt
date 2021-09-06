@@ -1,0 +1,25 @@
+This project is created solely using python 3.
+
+Requirements :
+-> Python 3 installed
+-> Following python module installed :
+    tkinter, json, plotly, pyEX 
+
+To check which modules are installed, use command : 
+"pip list"
+
+Note : To install tkinter, use "pip install tk"
+
+How to run :
+run 'run_project.py' file using python interpreter.
+1. Open command prompt/terminal in the directory containing project files in your local machine
+2. run 'pyhton run_project.py' command 
+3. Input company symbol and start, end data .
+4. Click on search and graph will show in the browser window.
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Please Enter company symbol in UPPERCASE
+Please Enter Data strictly in "YYYY-MM-DD" format
+Since we are using http calls, it may take a while(~10sec) to run 
+
+
