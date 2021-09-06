@@ -19,12 +19,13 @@ def FSM(data, Symbol, s_date, e_date):
         if data[i]['symbol'] == Symbol:
             flag = 1
             if data[i]['date'] >= s_date:
-                while(data[i]['date']<=e_date):
-                    o.append(data[i]['open'])
-                    c.append(data[i]['close'])
-                    h.append(data[i]['high'])
-                    l.append(data[i]['low'])
-                    da.append(data[i]['date'])
+                while(i<len(data) and data[i]['date']<=e_date):
+                    if(data[i]['symbol'] == Symbol):
+                        o.append(data[i]['open'])
+                        c.append(data[i]['close'])
+                        h.append(data[i]['high'])
+                        l.append(data[i]['low'])
+                        da.append(data[i]['date'])
                     i+=1
                 break
     
