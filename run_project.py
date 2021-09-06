@@ -53,7 +53,7 @@ def search_action() :
     # comp_name_var.set("")
     # st_date_var.set("")
     # end_date_var.set("")
-    print(graph_type)
+    #print(graph_type)
     # get parsed_data
     parsed_data = data_parser.FSM(json_data, comp_name, st_date, end_date)
 
